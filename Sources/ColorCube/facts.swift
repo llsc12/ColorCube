@@ -8,11 +8,11 @@
 @_exported import ColorCubeObjc
 
 extension CCFlags: OptionSet {
-  static let onlyBrightColors = CCOnlyBrightColors
-  static let onlyDarkColors = CCOnlyDarkColors
-  static let onlyDistinctColors = CCOnlyDistinctColors
-  static let orderByBrightness = CCOrderByBrightness
-  static let orderByDarkness = CCOrderByDarkness
-  static let avoidWhite = CCAvoidWhite
-  static let avoidBlack = CCAvoidBlack
+  public static let onlyBrightColors = CCOnlyBrightColors
+  public static let onlyDarkColors = CCOnlyDarkColors
+  public static let onlyDistinctColors = CCOnlyDistinctColors
+  public static let orderByBrightness = CCOrderByBrightness
+  public static let orderByDarkness = CCOrderByDarkness
+  public static let avoidWhite = CCAvoidWhite
+  public static let avoidBlack = CCAvoidBlack
 }
